@@ -1,0 +1,43 @@
+ 
+.api-list {
+  padding-top: 25px;
+  align-items: stretch;
+}
+
+.api-list a {
+  flex-grow: 1;
+}
+
+.api-wrapper {
+  /*background: darkslategray; */
+  background: #cccccc;
+  padding: 17px;
+  border-radius: 11px;
+  color: black;
+  font-size: large;
+  display: grid;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.api-body {
+  background: #dddddd;
+  border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: normal;  
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found {
+  font-size: 20px;
+}
+
+.not-found img {
+  width: 10%;
+}
